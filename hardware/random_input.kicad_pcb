@@ -5,9 +5,16 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Random Input Fuzz Effect")
+    (date "2023-02-22")
+    (rev "v0.01")
+    (comment 1 " github.com/whbeers/random_input")
+  )
+
   (layers
     (0 "F.Cu" signal)
-    (31 "B.Cu" signal)
+    (31 "B.Cu" power)
     (33 "F.Adhes" user "F.Adhesive")
     (36 "B.SilkS" user "B.Silkscreen")
     (37 "F.SilkS" user "F.Silkscreen")
@@ -30,7 +37,7 @@
       (layer "B.Cu" (type "copper") (thickness 0.035))
       (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
       (layer "B.SilkS" (type "Bottom Silk Screen"))
-      (copper_finish "None")
+      (copper_finish "HAL SnPb")
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
@@ -1713,7 +1720,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 36a9b803-f825-48d9-9d82-fb16bd8fa4d9)
     )
-    (fp_text value "Out_G" (at 4.064 0) (layer "F.SilkS" knockout)
+    (fp_text value "Out_G" (at 3.937 0) (layer "F.SilkS" knockout)
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 75a13638-5de0-4ad9-b07d-5c7ee450513f)
     )
@@ -2146,10 +2153,10 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp c4de660c-e298-4f76-a3c7-5d0b31d4bee8))
   (gr_line (start 71.12 22.86) (end 71.12 57.15)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp d660e334-0fb4-4796-8486-753dbcdefffc))
-  (gr_text "v0.01" (at 27.94 58.166) (layer "B.SilkS" knockout) (tstamp 4ed401e2-650c-425c-baa9-f1e9b0389208)
+  (gr_text "${REVISION}" (at 27.94 58.166) (layer "B.SilkS" knockout) (tstamp 4ed401e2-650c-425c-baa9-f1e9b0389208)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
   )
-  (gr_text " github.com/whbeers/random_input" (at 70.866 58.166) (layer "B.SilkS" knockout) (tstamp 53872a78-bfcb-47ca-b084-164d5ca71b2f)
+  (gr_text "${COMMENT1}" (at 70.866 58.166) (layer "B.SilkS" knockout) (tstamp 53872a78-bfcb-47ca-b084-164d5ca71b2f)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
   )
 
