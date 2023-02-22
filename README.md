@@ -1,8 +1,8 @@
 # Random Input Fuzz Effect
 
-This is a re-creation of the Fuzz Face circuit, continuing my attempts to design guitar effects using [KiCAD](https://www.kicad.org/).
+This is a re-creation of the original Dallas Arbiter Fuzz Face effect circuit, continuing my attempts to design guitar effects using [KiCAD](https://www.kicad.org/).
 
-The circuit is a product of my own breadboarding and experimentation after an initial build of the circuit, and emphasizes the ability to fine-tune the bias of each transistor over a wide range to obtain a pleasant sound from a variety of NPN transistors (germanium or silicon). Besides this emphasis, it remains true to the original.
+The resulting design is a product of breadboarding and experimentation after an initial build of the circuit. It emphasizes as ability to fine-tune the bias of each transistor to obtain a pleasant sound from a variety of NPN transistors (germanium or silicon). Besides this emphasis, it remains true to the original.
 
 The circuit can be adapted for PNP transistors by reversing the supply voltage and polarity of electrolytic capacitors.
 
@@ -11,10 +11,13 @@ The circuit can be adapted for PNP transistors by reversing the supply voltage a
 
 [Schematic](hardware/RandomInput_schematic_v0.1.pdf)
 
-Instructions for biasing transistors (using the incorporated trimpots) are provided in the schematic. This was the approach that worked for me, after a few hours of research. I'm by no means an expert and would welcome feedback.
+Instructions for biasing transistors (using the incorporated trimpots) are provided in the schematic. (This was the approach that worked for me, after a few hours of research. I'm by no means an expert and would welcome feedback.)
 
 ## Credit
-The basic schematic I worked from is widely available on the internet. Component selection 
+The basic schematic I worked from is widely available on the internet. At the same time my research drew on analyses from far-greater experts than myself, as well as published circuit diagrams. Most notably:
+[CODA Effects' circuit analysis](https://www.coda-effects.com/p/circuit-analysis-fuzz-face.html)
+[RG Keen's analysis](http://www.geofex.com/article_folders/fuzzface/fffram.htm)
+[PedalPCB Twin Face](https://www.pedalpcb.com/product/twinface/)
 
 ## BOM
 
