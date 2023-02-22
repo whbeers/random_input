@@ -2,7 +2,7 @@
 
 This is a re-creation of the original Dallas Arbiter Fuzz Face effect circuit, continuing my attempts to design guitar effects using [KiCAD](https://www.kicad.org/).
 
-The resulting design is a product of breadboarding and experimentation after an initial build of the original circuit. It emphasizes as ability to fine-tune the bias of each transistor to obtain a pleasant sound from a variety of NPN transistors (germanium or silicon). Besides this emphasis, it remains true to the original.
+The resulting design is a product of breadboarding and experimentation after an initial build of the original circuit. It emphasizes the ability to easily fine-tune the bias of each transistor to obtain a pleasant sound from a variety of NPN transistors (germanium or silicon). Besides this emphasis, it remains true to the original.
 
 The circuit can be adapted for PNP transistors by reversing the supply voltage and polarity of electrolytic capacitors.
 
