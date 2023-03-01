@@ -9,7 +9,7 @@ The circuit can be adapted for PNP transistors by reversing the supply voltage a
 ![Front render](renders/front.png)
 ![Back render](renders/back.png)
 
-[Schematic](hardware/RandomInput_schematic_v0.1.pdf)
+[Schematic](hardware/RandomInput_schematic_v0.2.pdf)
 
 Instructions for biasing transistors (using the incorporated trimpots) are provided in the schematic. (This was the approach that worked for me, after a few hours of research. I'm by no means an expert and would welcome feedback.)
 
@@ -19,21 +19,13 @@ The basic schematic I worked from is widely available on the internet. At the sa
  - [RG Keen's analysis](http://www.geofex.com/article_folders/fuzzface/fffram.htm)
  - [PedalPCB Twin Face](https://www.pedalpcb.com/product/twinface/)
 
-## BOM
-
-TODO
-
-## Assembly
-
-The effect is designed to be assembled in a similar way to other PedalPCB effects, and is compatible with their [3PDT footswitch utility PCB](https://www.pedalpcb.com/product/3pdt/). More detailed instructions TODO, for now refer to PedalPCB instructions... and buy thier PCBs.
-
 ## Versioning
 
 My pcb designs utilize the following versioning scheme (I'll add to this as I produce more revisions):
  - v0.0XX: A candidate design that has not yet been produced and tested.
  - v0.XX: A design that has been produced, tested, and any initial errors addressed.
 
-The current version of the Random Input Fuzz effect is v0.1.
+The current version of the Random Input Fuzz effect is v0.2.
 
 
 ## Name
