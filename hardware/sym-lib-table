@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "buffer_overflow_library")(type "KiCad")(uri "C:/Users/whbee/Documents/git_repos/buffer_overflow/hardware/buffer_overflow_library.kicad_sym")(options "")(descr ""))
+  (lib (name "buffer_overflow_library")(type "KiCad")(uri "${KIPRJMOD}/buffer_overflow_library.kicad_sym")(options "")(descr ""))
 )
