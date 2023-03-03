@@ -28,8 +28,8 @@ My pcb designs utilize the following versioning scheme (I'll add to this as I pr
 The current version of the Random Input Fuzz effect is v0.2.
 
 ## Planned TODOs before v0.30
- - Re-place and re-route lower connector to top of board, in alignment to the approach I've taken with the [Noise Floor](https://github.com/whbeers/noise_floor) utility board.
- - Later, migrate indicator LED and power protection circuit to Noise Floor.
+ - Re-place and re-route lower connector to top of board, in alignment to the approach I've taken with the [Noise Floor](https://github.com/whbeers/noise_floor) utility board. [DONE!]
+ - Later, migrate indicator LED and power protection circuit to Noise Floor. [DONE!]
  - Fix any issues I identify in testing produced v0.2 boards
 
 ## Name
