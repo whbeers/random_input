@@ -6,8 +6,8 @@
 
   (title_block
     (title "Random Input Fuzz Effect (Based on Fuzz Face)")
-    (date "2023-02-28")
-    (rev "v0.2")
+    (date "2023-03-03")
+    (rev "v0.25")
   )
 
   (lib_symbols
@@ -1018,11 +1018,11 @@
     (uuid e80d361d-a20b-4672-b290-933800018980)
   )
 
-  (label "EFFECT_IN" (at 86.36 147.32 180)
+  (label "EFFECT_IN" (at 86.36 147.32 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 151995bf-dc15-441f-b49e-4cc80fb74b26)
   )
-  (label "9V0" (at 87.63 124.46 180)
+  (label "9V0" (at 87.63 124.46 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1a6d54e1-b2e9-4393-8e63-d7638c0d8be5)
   )
@@ -1030,11 +1030,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 52cd71d8-161c-43bd-9d21-54f32f1919d1)
   )
-  (label "EFFECT_OUT" (at 86.36 139.7 180)
+  (label "EFFECT_OUT" (at 86.36 139.7 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 55e8fdd8-f394-43e1-8310-6736ac482be9)
   )
-  (label "GND" (at 86.36 144.78 180)
+  (label "GND" (at 86.36 144.78 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 67c4c49f-8716-4b62-af8f-2ec2ba968f8a)
   )
@@ -1066,7 +1066,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a5ce8f30-1047-4df8-886c-9d9bd395fae6)
   )
-  (label "9V0" (at 86.36 142.24 180)
+  (label "9V0" (at 86.36 142.24 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b7c1a58b-13ff-41cb-9c7a-ca1d2e2d56b9)
   )
