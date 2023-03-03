@@ -9,7 +9,7 @@ The circuit can be adapted for PNP transistors by reversing the supply voltage a
 ![Front render](renders/front.png)
 ![Back render](renders/back.png)
 
-[Schematic](hardware/RandomInput_schematic_v0.25.pdf)
+[Schematic](hardware/RandomInput_schematic_v0.26.pdf)
 
 Instructions for biasing transistors (using the incorporated trimpots) are provided in the schematic. (This was the approach that worked for me, after a few hours of research. I'm by no means an expert and would welcome feedback.)
 
@@ -25,7 +25,7 @@ My pcb designs utilize the following versioning scheme (I'll add to this as I pr
  - v0.0XX: A candidate design that has not yet been produced and tested.
  - v0.XX: A design that has been produced, tested, and any initial errors addressed.
 
-The current version of the Random Input Fuzz effect is v0.25.
+The current version of the Random Input Fuzz effect is v0.26.
 
 ## Planned TODOs before v0.30
  - Re-place and re-route lower connector to top of board, in alignment to the approach I've taken with the [Noise Floor](https://github.com/whbeers/noise_floor) utility board. [DONE in v0.25!]
