@@ -9,7 +9,7 @@ The circuit can be adapted for PNP transistors by reversing the supply voltage a
 ![Front render](renders/front.png)
 ![Back render](renders/back.png)
 
-[Schematic](hardware/RandomInput_schematic_v0.2.pdf)
+[Schematic](hardware/RandomInput_schematic_v0.25.pdf)
 
 Instructions for biasing transistors (using the incorporated trimpots) are provided in the schematic. (This was the approach that worked for me, after a few hours of research. I'm by no means an expert and would welcome feedback.)
 
