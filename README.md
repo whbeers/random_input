@@ -4,7 +4,7 @@ This is a re-creation of the original Dallas Arbiter Fuzz Face effect circuit, c
 
 The resulting design is a product of breadboarding and experimentation after an initial build of the original circuit. It emphasizes the ability to easily fine-tune the bias of each transistor to obtain a pleasant sound from a variety of NPN transistors (germanium or silicon). Besides this emphasis, it remains true to the original.
 
-The circuit can be adapted for PNP transistors by reversing the supply voltage and polarity of electrolytic capacitors.
+The board is built on the ["Noise Floor"](https://github.com/whbeers/noise_floor) pedal platform, which provides basic power protection, audio IO, and a footswitch with LED indicator.
 
 ![Front render](renders/front.png)
 ![Back render](renders/back.png)
