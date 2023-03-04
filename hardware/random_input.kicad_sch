@@ -6,8 +6,8 @@
 
   (title_block
     (title "Random Input Fuzz Effect (Based on Fuzz Face)")
-    (date "2023-03-03")
-    (rev "v0.26")
+    (date "2023-03-04")
+    (rev "v0.27")
   )
 
   (lib_symbols
@@ -1480,7 +1480,7 @@
     (property "Value" "E1" (at 78.74 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical" (at 83.82 123.19 0)
+    (property "Footprint" "random_input:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical_with_3D_Model" (at 83.82 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 83.82 123.19 0)

@@ -36,4 +36,9 @@
   (pad "1" thru_hole rect (at -5.0075 3.81 270) (size 3 3) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 383b1bad-a842-4f85-9ee3-a5cd20715ca7))
   (pad "2" thru_hole circle (at -0.0075 3.81 270) (size 3 3) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 759df367-7168-4154-9fa4-c479abab774e))
   (pad "3" thru_hole circle (at 4.9925 3.81 270) (size 3 3) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 3072a8f2-8884-4120-a68e-0007d424ff12))
+  (model "${KIPRJMOD}/random_input.pretty/RV16AF-41.step"
+    (offset (xyz 0 12.2 0.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

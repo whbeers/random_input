@@ -9,7 +9,7 @@ The board is built on the ["Noise Floor"](https://github.com/whbeers/noise_floor
 ![Front render](renders/front.png)
 ![Back render](renders/back.png)
 
-[Schematic](hardware/RandomInput_schematic_v0.26.pdf)
+[Schematic](hardware/RandomInput_schematic_v0.27.pdf)
 
 Instructions for biasing transistors (using the incorporated trimpots) are provided in the schematic. (This was the approach that worked for me, after a few hours of research. I'm by no means an expert and would welcome feedback.)
 
@@ -19,13 +19,15 @@ The basic schematic I worked from is widely available on the internet. At the sa
  - [RG Keen's analysis](http://www.geofex.com/article_folders/fuzzface/fffram.htm)
  - [PedalPCB Twin Face](https://www.pedalpcb.com/product/twinface/)
 
+Thanks also to [Vasily Kashirin](https://grabcad.com/vasily.kashirin-1) for the awesome step models for potentiometers and jacks, and to folks on the [freestompboxes.org](https://www.freestompboxes.org) forum for feedback and suggestions!
+
 ## Versioning
 
 My pcb designs utilize the following versioning scheme (I'll add to this as I produce more revisions):
  - v0.0XX: A candidate design that has not yet been produced and tested.
  - v0.XX: A design that has been produced, tested, and any initial errors addressed.
 
-The current version of the Random Input Fuzz effect is v0.26.
+The current version of the Random Input Fuzz effect is v0.27.
 
 ## Planned TODOs before v0.30
  - Re-place and re-route lower connector to top of board, in alignment to the approach I've taken with the [Noise Floor](https://github.com/whbeers/noise_floor) utility board. [DONE in v0.25!]
