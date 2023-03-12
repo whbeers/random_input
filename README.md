@@ -8,8 +8,8 @@ The board is built on the ["Noise Floor"](https://github.com/whbeers/noise_floor
 
 ![Front render](renders/front.png)
 ![Back render](renders/back.png)
-![Schematic SVG](schematics/random_input_latest.svg)
-[Schematic PDF](schematics/random_input_latest.pdf)
+![Schematic SVG](schematics/random_input-latest.svg)
+[Schematic PDF](schematics/random_input-latest.pdf)
 
 Instructions for biasing transistors (using the incorporated trimpots) are provided in the schematic. (This was the approach that worked for me, after a few hours of research. I'm by no means an expert and would welcome feedback.)
 
