@@ -29,10 +29,5 @@ My pcb designs utilize the following versioning scheme (I'll add to this as I pr
  - v0.0XX: A candidate design that has not yet been produced and tested.
  - v0.XX: A design that has been produced, tested, and any initial errors addressed.
 
-## Planned TODOs before v0.30
- - Re-place and re-route lower connector to top of board, in alignment to the approach I've taken with the [Noise Floor](https://github.com/whbeers/noise_floor) utility board. [DONE in v0.25!]
- - Later, migrate indicator LED and power protection circuit to Noise Floor. [DONE in v0.25!]
- - Fix any issues I identify in testing produced v0.2 boards
-
 ## Name
 *The name "Random Input" is a reflection of the nature of the effect (a very basic fuzz) and security nerdery (fuzzing software using random input being a primitive technique to surface errors).*
