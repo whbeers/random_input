@@ -19,7 +19,9 @@ The basic schematic I worked from is widely available on the internet. At the sa
  - [RG Keen's analysis](http://www.geofex.com/article_folders/fuzzface/fffram.htm)
  - [PedalPCB Twin Face](https://www.pedalpcb.com/product/twinface/)
 
-Thanks also to [Vasily Kashirin](https://grabcad.com/vasily.kashirin-1) for the awesome step models for potentiometers and jacks, and to folks on the [freestompboxes.org](https://www.freestompboxes.org) forum for feedback and suggestions!
+Thanks as always to the folks on the [freestompboxes.org](https://www.freestompboxes.org/) forum for feedback and suggestions.
+
+Potentiometer 3D model courtesy [Vasily Kashirin](https://grabcad.com/vasily.kashirin-1).
 
 *I am not affiliated with any of the brands, sites, or products named in this overview.*
 
